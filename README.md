@@ -1,98 +1,139 @@
-🛡️ User Behaviour Analysis Using Machine Learning
+# 🔍 User Behaviour Analysis Using Machine Learning
 
-🌟 Overview
+Welcome to the **User Behaviour Analysis Using Machine Learning** project repository by **Hack Slayers**!
 
-• "User Behaviour Analysis Using Machine Learning" enhances cybersecurity by:  
-  - Monitoring user behavior in real time.  
-  - Detecting SQL injection attacks.
+## 👨‍💻 Team Members
+- **Kanishka Varshni K**  
+- **Devadharshini S**  
+- **Satheesh Kumar K**
 
-• Features:  
-  - Machine learning-powered anomaly detection.  
-  - Comprehensive dashboard and detailed logs.  
-  - Real-time alerts to maintain web application integrity.
+## 🌟 Project Overview
+- A secure web application designed to monitor and analyze user behavior using machine learning.
+- Detects SQL injection attacks in real-time and provides actionable insights via a user-friendly dashboard.
+- Sends automated SMS alerts to the admin for immediate security action.
 
-👥 Team Hack Slayers
+## 🌐 **Live Demo:** Experience the project in action [here](https://cyber-drab.vercel.app/).
 
-• Kanishka Varshni K 
-• Devadharshini S  
-• Satheesh Kumar K
+---
 
-🎯 Aim and Objectives
+## 🎯 Aim and Objectives
 
-• 🎯 Aim:  
-  Enhance network security using machine learning to detect anomalies and mitigate SQL injection attacks.  
+### **Aim**  
+- Enhance network security by effectively detecting and mitigating SQL injection attacks using machine learning.
 
-• ✔️ Objectives:  
-  - 📊 Build a real-time dashboard for monitoring user activity and attack statistics.  
-  - 🤖 Use machine learning to identify SQL injection patterns in web traffic.  
-  - 📱 Automate security alerts via SMS using Twilio API.  
-  - 📜 Maintain logs of login activity for accountability.
+### **Objectives**
+- 🔒 Build a real-time monitoring system to track user activity and provide attack statistics.  
+- 🤖 Use machine learning algorithms to identify SQL injection patterns.  
+- 📲 Implement automated SMS alerts via Twilio API.  
+- 🧾 Maintain detailed login activity logs for accountability and auditing.  
 
-✨ Features
+---
 
-• 🖥️ Dashboard:  
-  - 🔄 Real-time updates:  
-    - Total attacks detected.  
-    - Unique IP addresses.  
-    - Most frequent attack types.  
-    - Total SMS alerts sent.  
-  - 📈 Visualizations:  
-    - Charts for monthly attack trends.  
-    - Logs with user activity details like email, login time, IP, and session duration.
+## 🛠️ Key Features
 
-• 🔔 Security Alerts: 
-  - ⚡ Real-time anomaly detection.  
-  - 📩 Automated SMS alerts with:  
-    - IP address.  
-    - Payload details.  
-    - Timestamp.
+### **Dashboard Highlights**
+- 📊 **Attack Metrics**: Real-time updates on detected attacks.  
+- 🌍 **Unique IP Tracking**: Displays the number of unique IP addresses accessing the system.  
+- 🔍 **Common Attack Types**: Provides insights into frequently occurring attack patterns.  
+- ✉️ **SMS Notifications**: Tracks the number of alerts sent to the admin.  
 
-• 🤖 Machine Learning Integration: 
-  - 🧮 Algorithm: Isolation Forest for anomaly detection.  
-  - 📊 Training: Trained on normal and malicious traffic datasets.  
-  - 🚀 Deployment: Integrated with Node.js backend for real-time analysis.
+### **Visualizations**
+- 📈 Interactive charts showcasing monthly attack trends.  
+- 📝 Tabular logs of user activities, including login time, IP address, and session duration.  
 
-• 🛠️ Use Cases:
-  - 🏢 Enterprise Security: Flags suspicious login patterns.  
-  - 🛒 E-Commerce: Protects payment gateways from SQL injection.  
-  - 🎓 Educational Platforms: Safeguards sensitive records.  
-  - 💳 Financial Systems: Detects fraud and malicious attempts.
+---
 
-⚙️ Technology Stack
+## 🖥️ Technology Stack
 
-• Frontend:  
-  - 🎨 React with TypeScript for user interfaces.  
-  - CSS for styling.  
+### **Frontend**
+- ⚛️ React with TypeScript for interactive and user-friendly interfaces.  
+- 🎨 CSS for visually appealing styling.  
 
-• Backend:  
-  - 💻 Node.js for API logic and ML model integration.  
-  - Prisma ORM for database management.  
+### **Backend**
+- 🟢 Node.js for backend logic and machine learning integration.  
+- 🛠️ Prisma ORM for seamless database communication.  
 
-• Database:  
-  - 🗄️ PostgreSQL for secure storage.  
+### **Machine Learning**
+- 🌲 Isolation Forest algorithm implemented in Node.js for real-time anomaly detection.  
 
-• Machine Learning:
-  - 📉 Isolation Forest algorithm in Node.js.  
+### **Database**
+- 🐘 PostgreSQL for secure and efficient data storage.  
 
-• Visualization: 
-  - 📊 Chart.js and D3.js for graphs and trends.  
+### **Visualization**
+- 📊 Chart.js and D3.js for dynamic graphs and charts.  
 
-• Alerts:
-  - 📡 Twilio API for SMS notifications.
+### **Alerts**
+- 📲 Twilio API for SMS notifications to the admin.
 
-☁️ Deployment Strategy
+---
 
-• 🌐 Cloud Hosting: Hosted on Google Firebase.  
-• 📜 Workflow: 
-  - Real-time request analysis triggers automated alerts for anomalies.
+## 🤖 Machine Learning Integration
 
-🚀 Future Enhancements
+- **Algorithm**: Isolation Forest to detect anomalies in SQL query patterns.  
+- **Model Training**: Trained on labeled datasets to distinguish between normal and malicious requests.  
+- **Deployment**: Integrated with the Node.js backend for real-time analysis.  
 
-• 🔒 Extend detection to XSS, DDoS, and brute-force attacks.  
-• 🧠 Integrate deep learning for advanced threat detection.  
-• 🔄 Automate model retraining for emerging attack patterns.  
-• 🛠️ Improve accuracy with feedback loops to reduce false positives.
+---
 
+## 📚 Use Cases
 
-🌐 Live Demo: Experience the project in action -  https://cyber-drab.vercel.app/
+- **Enterprise Security**: Detects unauthorized access and alerts admins in real-time.  
+- **E-Commerce**: Prevents data breaches by identifying malicious query patterns.  
+- **Educational Platforms**: Secures sensitive student and faculty data.  
+- **Financial Systems**: Detects anomalies in transaction patterns to prevent fraud.  
 
+---
+
+## 🚀 Deployment and Future Scope
+
+### **Deployment Strategy**
+- 🌩️ Hosted on Google Firebase for scalability and low latency.  
+- 🔄 Real-time processing of user requests and automated alerts.  
+
+### **Future Enhancements**
+- 🛡️ Expand detection to other attacks like XSS, DDoS, and brute force.  
+- 🧠 Incorporate deep learning for enhanced threat detection.  
+- 🔄 Continuous retraining of machine learning models for improved accuracy.  
+
+---
+
+## 📜 How to Run the Project
+
+### **Prerequisites**
+- Install [Node.js](https://nodejs.org/).  
+- Install PostgreSQL.  
+- Sign up for Twilio for SMS alerts.  
+
+### **Steps**
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repository-link.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd project-directory
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Configure environment variables:
+   - Create a `.env` file and add the following:
+     ```env
+     DATABASE_URL=your-postgresql-database-url
+     TWILIO_ACCOUNT_SID=your-twilio-account-sid
+     TWILIO_AUTH_TOKEN=your-twilio-auth-token
+     TWILIO_PHONE_NUMBER=your-twilio-phone-number
+     ```
+5. Start the application:
+   ```bash
+   npm start
+   ```
+6. Access the app at `http://localhost:3000`.
+
+---
+
+## 🌐 **Live Demo**
+
+Click the link below to experience the project in action:  
+[**https://cyber-drab.vercel.app/**](https://cyber-drab.vercel.app/)
